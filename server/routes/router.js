@@ -24,6 +24,14 @@ route.get('/add-user', services.add_user);
 
 route.get('/update-user', services.update_user);
 
+/**
+ * @description for other pages
+ * /mission /vision /contact
+ */
+route.get('/mission', services.mission);
+route.get('/vision', services.vision);
+route.get('/contact', services.contact);
+
 //API
 route.post('/api/users', controller.create);
 route.get('/api/users', controller.find);

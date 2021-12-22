@@ -1,5 +1,5 @@
 //this file is going to allow us to render different files using router
-//by doing this we replace the callback functions in router.js by calling this exported CB functions instead
+//by doing this we replace the callback functions in router.js by calling these exported CB functions instead
 
 const axios = require('axios');//import axios - allow us to make requests
 
@@ -17,6 +17,18 @@ exports.homeRoutes = (req, res) => {
 
 exports.add_user = (req, res) => {
     res.render('add_user');
+}
+
+exports.mission = (req, res) => {
+    res.render('mission');
+}
+
+exports.vision = (req, res) => {
+    res.render('vision');
+}
+
+exports.contact = (req, res) => {
+    res.render('contact');
 }
 
 exports.update_user = (req, res) => {
