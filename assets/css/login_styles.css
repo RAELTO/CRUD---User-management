@@ -1,0 +1,76 @@
+.containerL{
+    margin: 50px auto;/*el auto sirve para que se centre*/
+    width: 400px;/*Complementa el centrado*/
+    padding: 30px;
+    background: rgba(0, 0, 0, .5);/*agrega transparencia al color deseado con el valor de .5*/
+    border-radius: 10px;/*agrega esquinas curvas al marco*/
+}
+.containerL h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: #4cc9f0;
+    text-align: center;
+}
+.containerL .element label{
+    color: white;
+}
+.containerL .element input{
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    background:transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+}
+
+.containerL .element input[type="submit"]{
+    /*este solo aplicara a los elementos de tipo submit*/
+    background-color: #f72585;
+    border: none;
+    letter-spacing: 5px;/*separa las letras del texto del boton enviar*/
+    text-transform: uppercase;/*Convierte todo el texto a mayusc*/
+    cursor: pointer;/*cambia el icono del puntero por una mano al ponerla encima del boton de send*/
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.containerL .element input:hover[type="submit"]{
+    background-color: #56d9e2;
+}
+
+.loginButton{
+    background-color: #1288d6;
+    border-radius: 10px 0 10px 0;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 15%;
+}
+
+.loginButton:hover{
+    background-color: #69f5ee;
+    color: #000;
+}
+
+.loginRegButton{
+    background-color: #1288d6;
+    border-radius: 10px 0 10px 0;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.loginRegButton:hover{
+    background-color: #69f5ee;
+    color: #000;
+}

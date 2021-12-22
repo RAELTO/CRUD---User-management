@@ -1,14 +1,18 @@
 <!--form handling-->
-<form action="/api/users" method="POST" id="add_user">
+<form action="/api/users" method="POST" id="add_user" autocomplete="off">
     <div class="new_user">
         <div class="form-group">
-            <label for="name" class="text-light">Name</label>
+            <label for="username" class="text-light">User Name</label>
             <input type="hidden" name="id" value="">
-            <input type="text" name="name" value="" placeholder="Your name here">
+            <input type="text" name="username" value="" placeholder="Your username here">
         </div>
         <div class="form-group">
             <label for="email" class="text-light">Email</label>
             <input type="text" name="email" value="" placeholder="example@something.com">
+        </div>
+        <div class="form-group">
+            <label for="password" class="text-light">Password</label>
+            <input type="password" name="password" value="" placeholder="Type your password here">
         </div>
         <div class="form-group">
             <label for="gender" class="text-light">Gender</label>

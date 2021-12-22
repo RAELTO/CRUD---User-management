@@ -4,21 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRUD Application</title>
+    <title>XYZ RealState Application</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/form_style.css">
+    <link rel="stylesheet" href="css/login_styles.css">
+    <link rel="stylesheet" href="css/menu_style.css">
 </head>
 <body>
     
     <!--Header-->
-        <header id="header">
-            <nav>
-                <div class="container">
-                    <div class="text-center">
-                        <a href="/" class="nav-brand text-dark">User Management System</a>
+    <header id="header">
+        <nav>
+            <h1 class="nav-brand text-dark text-center">XYZ - Admin Panel</h1><br />
+            <div class="sidebar">
+                <div class="logo_content">
+                    <div class="logo">
+                        <image src="https://uploads-ssl.webflow.com/58646eab48ddaea33e981106/58da9320e4118aa50b528c26_WhiteLogo.png" width="30px" height="20px"/>
+                        <div class="logo_name">Ltda.</div>
+                    </div>
+                    <i class='bx bx-menu' id='btn'></i>
+                </div>
+                <ul class="nav_list">
+                <li>
+                    <a href="/">
+                        <i class='bx bx-home' ></i>
+                        <span class="links_name">Home</span>
+                    </a>
+                    <span class="tooltip">Home</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-user' ></i>
+                        <span class="links_name">User</span>
+                    </a>
+                    <span class="tooltip">User</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-log-in'></i>
+                        <span class="links_name">Log-in</span>
+                    </a>
+                    <span class="tooltip">Login</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-building-house' ></i>
+                        <span class="links_name">Property</span>
+                    </a>
+                    <span class="tooltip">Property</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-flag' ></i>
+                        <span class="links_name">Mission</span>
+                    </a>
+                    <span class="tooltip">Mission</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-target-lock' ></i>
+                        <span class="links_name">Vision</span>
+                    </a>
+                    <span class="tooltip">Vision</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-contact' ></i>
+                        <span class="links_name">Contact</span>
+                    </a>
+                    <span class="tooltip">Contact</span>
+                </li>
+                </ul>
+                <div class="profile_content">
+                    <div class="profile">
+                        <div class="profile_details">
+                            <img src="./images/profile1.jpg" alt="profile image">
+                            <div class="name_job">
+                                <div class="name">Elías T.</div>
+                                <div class="job">Web Developer</div>
+                            </div>
+                        </div>
+                        <i class='bx bx-log-out' id="log_out"></i>
                     </div>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </nav>
+    </header>
     <!--/Header-->

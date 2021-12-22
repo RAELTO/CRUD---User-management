@@ -21,7 +21,6 @@ a{
 .container{
     max-width: 1024px;
     margin: auto;
-
 }
 
 .nav-brand{
@@ -79,7 +78,7 @@ a{
 }
 
 #header nav{
-    background: linear-gradient(to right, #2db8e2, #4a00e0);
+    background-image: url(https://www.centurybizsolutions.net/wp-content/uploads/2016/01/Banner-Buildings-1.png);
     padding: 1em 0;
     width: 100%;
 }
@@ -89,8 +88,7 @@ a{
     padding: 1em 0;
     width: 100%;
     margin: auto;
-    margin-top: 250px;
-    position: relative;
+    margin-top: 225px;
 }
 
 #site-main{
