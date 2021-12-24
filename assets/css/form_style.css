@@ -27,7 +27,8 @@
 #update_user .form-group input[type="text"],
 #add_user .form-group input[type="text"],
 #update_user .form-group input[type="password"],
-#add_user .form-group input[type="password"]{
+#add_user .form-group input[type="password"],
+#contact .form-group input[type="text"]{
     width: 100%;
     padding: .6em 1em;
     margin: .5em 0;
@@ -94,7 +95,8 @@
 
 /*select first update_user then the form-group class then the btn class*/
 #update_user .form-group .btn,
-#add_user .form-group .btn{
+#add_user .form-group .btn,
+#contact .form-group .btn{
     width: 100%;
     padding: .9em 1em;
     background-color: #06acd6;
@@ -108,7 +110,8 @@
 }
 
 #update_user .form-group .btn:hover,
-#add_user .form-group .btn:hover{
+#add_user .form-group .btn:hover,
+#contact .form-group .btn:hover{
     background-color: var(--dark);
     color: var(--border);
 }
